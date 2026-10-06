@@ -1,0 +1,20 @@
+# Negocio de ejemplo (ficticio). Cambia este archivo para adaptar el bot.
+nombre: "Panadería La Espiga Dorada"
+descripcion: "Panadería artesanal de barrio con pan recién horneado, pasteles y pedidos por encargo."
+palabra_humano: "humano"
+mensaje_derivacion: "Claro, te paso con una persona de la tienda. Te escribirán en breve."
+mensaje_por_defecto: "No estoy seguro de haberte entendido. Puedo ayudarte con horarios, precios, ubicación y pedidos. Escribe 'humano' para hablar con una persona."
+mensaje_no_texto: "Por ahora solo entiendo mensajes de texto. ¿Me escribes tu consulta?"
+faq:
+  - claves: ["hola", "buenas", "buenos dias", "buenas tardes", "buenas noches"]
+    respuesta: "¡Hola! Bienvenido a Panadería La Espiga Dorada. Puedo contarte horarios, precios, ubicación o tomar tu pedido."
+  - claves: ["horario", "hora", "abren", "cierran", "abierto", "atienden"]
+    respuesta: "Atendemos de lunes a sábado de 6:00 a 20:00 y domingos de 7:00 a 14:00."
+  - claves: ["precio", "cuesta", "cuanto", "vale", "costo", "tarifa"]
+    respuesta: "Pan francés S/ 0.30, ciabatta S/ 1.50, croissant S/ 3.50, torta de chocolate (porción) S/ 8.00 y torta entera S/ 65.00."
+  - claves: ["ubicacion", "direccion", "donde", "quedan", "llegar"]
+    respuesta: "Estamos en Av. Los Olivos 123, Lima (a una cuadra del parque central)."
+  - claves: ["pedido", "encargo", "pedir", "reservar", "torta", "delivery", "domicilio"]
+    respuesta: "Los pedidos por encargo se hacen con 24 horas de anticipación. Envíanos producto, cantidad y hora de recojo. Hacemos delivery en el distrito desde S/ 5.00."
+  - claves: ["pago", "yape", "plin", "tarjeta", "efectivo"]
+    respuesta: "Aceptamos efectivo, Yape, Plin y tarjetas."
