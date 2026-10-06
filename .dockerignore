@@ -1,0 +1,10 @@
+.git
+.env
+data/
+tests/
+scripts/
+.github/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
