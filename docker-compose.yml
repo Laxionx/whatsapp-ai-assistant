@@ -1,0 +1,15 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    environment:
+      DB_PATH: /srv/data/conversaciones.db
+    ports:
+      - "8000:8000"
+    volumes:
+      - bot-data:/srv/data
+      # Edita el negocio sin reconstruir la imagen
+      - ./config/negocio.yaml:/srv/config/negocio.yaml:ro
+
+volumes:
+  bot-data:
